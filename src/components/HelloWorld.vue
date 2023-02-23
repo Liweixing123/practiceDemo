@@ -1,17 +1,16 @@
 <template>
   <div>
     <h1>
-      "开始写一个后台管理系统"
+      "这个项目是用来复刻小兔鲜"
     </h1>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue'  
 import {} from './HelloWorld.vue'
 
 </script>
 
 <style scoped>
-
 </style>
