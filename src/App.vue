@@ -4,9 +4,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './views/HelloWorld.vue'
 </script>
 
 <style scoped>
-
 </style>
