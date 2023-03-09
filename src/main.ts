@@ -7,4 +7,14 @@ import 'element-plus/dist/index.css'
 import 'virtual:svg-icons-register'
 import svgIcon from "./components/SvgIcon/index.vue";
 
-createApp(App).use(ElementPlus).component('svg-icon', svgIcon).mount('#app')
+import type { DefineComponent } from 'vue'
+import ECharts from './components/echarts/index'
+
+// vue自定义插件的方法
+const coms: any = {
+    install(app: DefineComponent) {
+        app.component('my-chart', ECharts)
+    }
+}
+
+createApp(App).use(ElementPlus).use(coms).component('svg-icon', svgIcon).mount('#app')

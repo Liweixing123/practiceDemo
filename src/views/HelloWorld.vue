@@ -5,6 +5,7 @@
     <h1>
       "这个项目是用来复刻小兔鲜"
     </h1>
+    <my-chart></my-chart>
     <el-button @click="showAxios">点击发送请求</el-button>
   </div>
 </template>
